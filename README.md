@@ -5,7 +5,7 @@
 Para ejecutar correctamente la aplicación, se realiza lo siguiente:
 
 1. Primero copiamos el repositorio en nuestro portapapeles y lo agregamos a nuestro sistema con `git clone`. 
-2. Posterior a eso, ingresamos en la nueva carpeta creada, kruger-challenge, e instalamos los módulos del proyecto con `npm install`.
+2. Posterior a eso, ingresamos en la nueva carpeta creada, kruger-challenge-repo, e instalamos los módulos del proyecto con `npm install`.
 3. Finalmente inicializamos el proyecto con `npm start` y nos dirigimos al [http://localhost:3000](http://localhost:3000) para verlo en nuestro navegador.
 
 ## Desarrollo de la aplicación
