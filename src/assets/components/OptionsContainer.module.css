@@ -1,0 +1,87 @@
+.container {
+    width: fit-content;
+}
+
+.content button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 211);
+}
+
+.content button:hover {
+    cursor: pointer;
+    background-color: rgb(56, 56, 160);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    text-align: center;
+}
+
+.block label {
+    color: rgb(66, 66, 66);
+}
+
+.block input {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.content fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.underForm {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.underfield {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1130px) {
+
+    .container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    .container legend {
+        font-size: 14px;
+    }
+
+    .block {
+        width: 140px;
+    }
+
+    .block label {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .content fieldset {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

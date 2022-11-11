@@ -1,0 +1,11 @@
+.container {
+    padding-top: calc(10vh + 10px);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.container span {
+    font-size: 20px;
+}

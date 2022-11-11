@@ -1,0 +1,47 @@
+.container {
+    width: 70%;
+    padding-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:320px;
+    width: (100% + 20px);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(221, 221, 221);
+}
+
+.container button {
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 211);
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: rgb(56, 56, 160);
+}
+
+.emptyMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1130px) {
+    .container {
+        width: 100%;
+        padding-right: 0px;
+    }
+}

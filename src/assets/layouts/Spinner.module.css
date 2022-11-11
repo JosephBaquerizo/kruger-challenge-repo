@@ -1,0 +1,30 @@
+.spinnerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.spinnerContainer div:before {
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    left: calc(50% - 30px);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid lightgray;
+    border-top-color: coral;
+    animation: spinner 0.7s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}

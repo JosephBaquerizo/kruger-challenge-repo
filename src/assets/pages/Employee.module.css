@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.content {
+    width: 70%;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.greetings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.positionContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.positionContainer div {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(201, 201, 201);
+}
+
+.positionContainer span {
+    font-size: 12px;
+    padding: 2px 5px;
+    color: rgb(70, 70, 70);
+}
+
+.informationTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.parameter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: rgb(218, 218, 218);
+}
+.parameter span {
+    text-transform: capitalize;
+}
+
+.value {
+    margin-right: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
+    .block span {
+        font-size: 12px;
+    }
+
+    .parameter {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .block {
+        flex-direction: column;
+    }
+
+    .parameter {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+    }
+
+    .value {
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}

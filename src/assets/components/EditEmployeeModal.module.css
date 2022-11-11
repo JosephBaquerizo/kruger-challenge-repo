@@ -1,0 +1,90 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.inputsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.block label {
+    font-size: 14px;
+}
+
+.block input {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.block select {
+    margin-top: 5px;
+}
+
+.extraContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin: 20px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buttonContainer button {
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.buttonContainer button:hover {
+    cursor: pointer;
+}
+
+.buttonContainer button:first-child {
+    background-color: rgb(58, 58, 211);
+}
+
+.buttonContainer button:first-child:hover {
+    background-color: rgb(56, 56, 160);
+}
+
+.buttonContainer button:last-child {
+    background-color: grey;
+}
+
+.buttonContainer button:last-child:hover {
+    background-color: rgb(87, 87, 87);
+}

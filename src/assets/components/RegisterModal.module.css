@@ -1,0 +1,82 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.formContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal button {
+    padding: 5px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    background-color: rgb(58, 58, 211);
+}
+
+.modal button:hover {
+    cursor: pointer;
+    background-color: rgb(56, 56, 160);
+}
+
+.toast {
+    display: flex;
+    flex-direction: column;
+}
+
+.toast button {
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.toast button:hover {
+    cursor: pointer;
+    background-color: #bbbbbb;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 560px) {
+    .block label {
+        font-size: 12px;
+    }
+
+    .formContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.greetings {
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.positionContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.positionContainer div {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(201, 201, 201);
+}
+
+.positionContainer span {
+    font-size: 12px;
+    padding: 2px 5px;
+    color: rgb(70, 70, 70);
+}
+
+.generalContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 1130px) {
+
+    .generalContent {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .topContent h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        width: 85%;
+    }
+}
