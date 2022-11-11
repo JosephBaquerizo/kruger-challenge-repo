@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     height: 10vh;
+    min-height: 50px;
+    max-height: 90px;
     width: 100%;
     z-index: 98;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -18,16 +20,12 @@
     justify-content: space-between;
     width: 70%;
 }
-
-.content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: white;
+.content span {
+    font-size: 22px;
 }
 
 .content button {
-    font-size: 2.5vh;
+    font-size: 22px;
     border: none;
     color: white;
     background-color: rgb(58, 58, 211);
@@ -46,5 +44,5 @@
 .logo {
     padding: 3px;
     border: 2px solid white;
-    font-size: 2.5vh;
+    font-size: 22px;
 }
