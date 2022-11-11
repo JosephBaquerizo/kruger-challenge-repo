@@ -25,12 +25,17 @@
     height: 20px;
 }
 
+.modal h3 {
+    font-size: 20px;
+}
+
 .modal button {
     width: 100%;
     border: none;
     border-radius: 5px;
+    font-size: 18px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin-top: 20px;
     background-color: rgb(226, 38, 38);
 }
@@ -41,6 +46,7 @@
 }
 
 .modal span {
+    font-size: 18px;
     text-align: center;
 }
 

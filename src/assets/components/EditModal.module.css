@@ -26,6 +26,10 @@
     overflow-y: auto;
 }
 
+.modal h3 {
+    font-size: 20px;
+}
+
 .inputsContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,16 +43,18 @@
 }
 
 .block label {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .block input {
     margin-top: 5px;
     padding: 5px;
+    font-size: 18px;
 }
 
 .block select {
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .buttonContainer {
@@ -60,9 +66,11 @@
 
 .buttonContainer button {
     margin-top: 5px;
-    padding: 5px;
+    padding: 10px;
     border: none;
+    border-radius: 5px;
     color: white;
+    font-size: 18px;
 }
 
 .buttonContainer button:hover {
@@ -76,7 +84,7 @@
 .buttonContainer button:first-child:hover {
     background-color: rgb(56, 56, 160);
 }
-
+/*
 .buttonContainer button:last-child {
     background-color: grey;
 }
@@ -84,7 +92,7 @@
 .buttonContainer button:last-child:hover {
     background-color: rgb(87, 87, 87);
 }
-
+*/
 .extraContainer {
     display: flex;
     align-items: center;

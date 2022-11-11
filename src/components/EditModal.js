@@ -233,7 +233,7 @@ export default function EditModal({ employeeData }) {
                     }
                     <div className={styles.buttonContainer}>
                         <button onClick={submitForm}>{ loading ? "Saving changes..." : "SAVE CHANGES"}</button>
-                        <button onClick={hideModal}>CANCEL</button>
+                        {/*<button onClick={hideModal}>CANCEL</button>*/}
                     </div>
                 </form>
         </div>
